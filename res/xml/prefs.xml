@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory
+        name="username change"
+        android:summary="@string/preferences_usernameSummary"
+        android:title="@string/preferences_usernameSectionTitle" >
+        <EditTextPreference
+            android:defaultValue="@string/preferences_changeUserNameTitle"
+            android:key="username"
+            android:title="@string/preferences_changeUserNameTitle" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        name="database options"
+        android:summary="@string/preferences_databaseSummary"
+        android:title="@string/preferences_databaseSectionTitle" >
+        <Preference
+            android:key="wipe_db"
+            android:summary="@string/preferences_wipeButtonSummary"
+            android:title="@string/preferences_wipeButton" >
+        </Preference>
+        <Preference
+            android:key="clean_db"
+            android:summary="@string/preferences_cleanButtonSummary"
+            android:title="@string/preferences_cleanButton" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        name="online options"
+        android:summary="@string/preferences_networkSummary"
+        android:title="@string/preferences_networkSectionTitle" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="toggle_offline"
+            android:summary="@string/preferences_toggleOnlineStatusSummary"
+            android:title="@string/preferences_toggleOnlineStatusTitle" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_online_only"
+            android:summary="@string/preferences_showOnlineOnlySummary"
+            android:title="@string/preferences_showOnlineOnlyTitle" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

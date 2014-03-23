@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+      
+    <LinearLayout
+        android:paddingTop="2dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+<!--     <ImageView  -->
+<!--         android:id="@+id/userStatus_lvRow_mainActivity" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         /> -->
+    
+    <TextView
+        android:paddingLeft="4dp"
+        android:id="@+id/fromUser_lvRow_messageActivity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    
+   
+    <TextView 
+        android:id="@+id/touser_lvRow_messageActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+	</LinearLayout>
+    
+    <TextView 
+        android:id="@+id/messagetext_lvRow_messageActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView 
+        android:id="@+id/messagesent_lvRow_messageActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+  
+</LinearLayout>
+
+

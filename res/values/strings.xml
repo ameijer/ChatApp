@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- XML -->
+    <string name="appName">DirectChat</string>
+    <string name="messageActivityTitle">MessagingActivity</string>
+    
+    <!-- Other parts of Application -->
+    <string name="actionBar_settings">Settings</string>
+	<string name="actionBar_quit">Quit DirectChat</string>
+    <string name="splashScreen_failToast_networkFail">Directchat cannot access the network. Please check your settings and try again.</string>
+    <string name="splashScreen_failToast_wifiFail">Please connect to a wifi network, then restart the DirectChat app</string>
+    <string name="messageActivity_defaultInputMessage">Write a message</string>
+	<string name="messageActivity_sendButton">Send</string>
+    <string name="mainActivity_userNameLabel">Current user name: </string>
+	<string name="mainActivity_userListNameHeader">Users</string>
+	<string name="mainActivity_userListDateHeader">Last seen</string>
+	<string name="preferences_usernameSummary">The username used in this chat program</string>
+	<string name="preferences_changeUserNameTitle">Default_Username</string>
+	<string name="preferences_usernameSectionTitle">Username</string>
+	<string name="preferences_databaseSummary">List of operations that can be performed on the DirectChat database</string>
+	<string name="preferences_databaseSectionTitle">Database Options</string>
+	<string name="preferences_wipeButton">Wipe Database</string>
+	<string name="preferences_wipeButtonSummary">Delete all users and messages</string>
+	<string name="preferences_cleanButton">Clean Database</string>
+	<string name="preferences_cleanButtonSummary">Remove offline users and orphaned messages</string>
+	<string name="preferences_toggleOnlineStatusTitle">Appear Online</string>
+	<string name="preferences_toggleOnlineStatusSummary">Check this box if you want to appear online</string>
+	<string name="preferences_showOnlineOnlyTitle">Show online users only</string>
+	<string name="preferences_networkSectionTitle">Network options</string>
+	<string name="preferences_showOnlineOnlySummary">Show online users only</string>
+	<string name="preferences_networkSummary">Network Options</string>
+	<string name="preferences_toast_changeName">Username Changed to: </string>
+	<string name="preferences_toast_wipingDB">Wiping the database&#8230;</string> <!-- &#8230; = '...' -->
+	<string name="preferences_toast_DBWiped">Database wiped!</string>
+	<string name="preferences_toast_cleaningDB">Cleaning the database&#8230;</string> <!-- &#8230; = '...' -->
+	<string name="preferences_toast_dbCleaned">Database Cleaned!</string>
+	<string name="preferences_toast_toggledOnlineStatus">User status settings changed</string>
+	<string name="preferences_toast_userListOnlineOnly">User list settings changed</string>
+
+	<!-- found here from our previous code but CURRENTLY NOT USED!! -->
+	<string name="danameDialogMessage">What\'s your name?</string>
+	<string name="defaultNameInputMessage">Your name here</string>
+	
+</resources>
